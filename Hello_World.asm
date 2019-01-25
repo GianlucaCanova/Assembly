@@ -1,3 +1,8 @@
+;Hello_World.asm
+;nasm -f obj Hello_World.asm
+;alink -oPE Hello_World.obj -subsys console
+;It works only on Windows OS
+
 ;tell compiler what type of cpu use
 cpu 386
 
